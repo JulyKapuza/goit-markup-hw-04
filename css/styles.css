@@ -461,12 +461,15 @@ address {
 }
 
 
-.app .link{
+.internet{
     height: 44px;
     width: 44px;
     border-radius: 50%;
     display: block;
     padding: 12px;
+    color: #AFB1B8 ;
+
+
    
    
 }
@@ -474,12 +477,12 @@ address {
 .link-icon {
     height: 20px;
     width: 20px;
-    fill: #AFB1B8;
+    fill: currentColor;
 
 }
 
-.link-icon:hover{
-    fill: var(--white-color);
+.internet:hover{
+    color: var(--white-color);
     background-color: var(--accent-color);
 }
 
