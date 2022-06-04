@@ -211,6 +211,17 @@ address {
     color: var(--accent-color);
 }
 
+.contacts-icon {
+    height: 12px;
+    width: 16px;
+    fill:#AFB1B8;
+
+}
+
+.contacts-icon:hover {
+    fill: var(--white-color);
+}
+
 
 /* Hero */
 .hero {
