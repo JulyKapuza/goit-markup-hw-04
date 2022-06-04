@@ -450,8 +450,13 @@ address {
 .app .item:not(:last-child){
     margin-right: 10px;
 }
+.link-icon{
+    height: 44px;
+    width: 44px;
 
-.app .link{
+}
+
+/* .app .link{
     height: 44px;
     width: 44px;
     display: inline-block;
@@ -461,7 +466,7 @@ address {
     border-radius: 50%;
    
    
-}
+} */
 
 /* Clients */
 .clients{
