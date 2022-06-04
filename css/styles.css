@@ -151,15 +151,24 @@ address {
     text-decoration: none;
 }
 
-.contacts .contact:hover,
+/* .contacts .contact:hover,
 .contacts .contact:focus {
     color: var(--accent-color);
+} */
+
+.contact-list{
+    color: #AFB1B8;
 }
 
 .contact-icon{
     height: 100px;
     width: 100px ;
+    fill: currentColor;
     
+}
+
+.contact-list {
+    color:  var(--accent-color);
 }
 
 /* Site nav */
@@ -467,7 +476,7 @@ address {
     border-radius: 50%;
     display: block;
     padding: 12px;
-    color: #AFB1B8 ;
+    color: #AFB1B8;
    
 }
 
