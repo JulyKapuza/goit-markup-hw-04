@@ -219,7 +219,7 @@ address {
 }
 
 .contacts-icon:hover {
-    fill: var(--white-color);
+    fill: var(--accent-color);
 }
 
 
