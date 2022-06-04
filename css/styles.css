@@ -450,23 +450,22 @@ address {
 .app .item:not(:last-child){
     margin-right: 10px;
 }
-.link-icon{
-    height: 44px;
-    width: 44px;
 
-}
 
-/* .app .link{
+.app .link{
     height: 44px;
     width: 44px;
     display: inline-block;
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
     border-radius: 50%;
    
    
-} */
+}
+
+.link-icon {
+    height: 20px;
+    width: 20px;
+
+}
 
 /* Clients */
 .clients{
