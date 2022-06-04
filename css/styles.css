@@ -451,17 +451,17 @@ address {
     margin-right: 10px;
 }
 
-/* .app .link{
+.app .link{
     height: 44px;
     width: 44px;
     display: inline-block;
-   background-size: 20px;
+    background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
-    background-image: url(../image/instagram.svg);
    
-} */
+   
+}
 
 /* Clients */
 .clients{
