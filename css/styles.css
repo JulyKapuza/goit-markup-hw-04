@@ -480,11 +480,12 @@ address {
 
 .link-icon:hover{
     fill: var(--white-color);
-}
-
-.app .link:hover{
     background-color: var(--accent-color);
 }
+
+/* .app .link:hover{
+    background-color: var(--accent-color);
+} */
 
 
 /* Clients */
