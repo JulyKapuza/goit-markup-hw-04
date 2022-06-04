@@ -440,8 +440,6 @@ address {
 
 }
 .app .item{
-    height: 44px;
-    width: 44px;
     box-shadow: none;
     border: none;
     
@@ -455,8 +453,9 @@ address {
 .app .link{
     height: 44px;
     width: 44px;
-    display: inline-block;
     border-radius: 50%;
+    display: block;
+    padding: 12px;
    
    
 }
