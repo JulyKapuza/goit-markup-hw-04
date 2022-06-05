@@ -549,31 +549,15 @@ address {
     display: flex ;
 }
 
-.social .link{
-    display:inline-block;
-    height: 44px;
-    width: 44px;
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
+.social .internet{
     background-color: #44454E;
-    border-radius: 50%;
-}
-.icon-instagram{
-    background-image: url(../image/instagram-footer.svg);
-}
-.icon-twitter{
-    background-image: url(../image/twitter-footer.svg);
-}
-.icon-facebook{
-    background-image: url(../image/facebook-footer.svg);
-}
-.icon-linkedin{
-    background-image: url(../image/linkedin-footer.svg);
-}
+    color: var(--white-color);
+   }
 
-.social .link:hover,
-.social .link:focus{
+
+
+.social .internet:hover,
+.social .internet:focus{
     background-color:var(--accent-color);
 }
 
