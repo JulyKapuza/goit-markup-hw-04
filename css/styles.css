@@ -120,13 +120,26 @@ address {
 }
 
 /* Site nav */
+.site-nav {
+    display: flex;
+
+}
 .site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--title-text-color);
     font-weight: var(--fw-header-500);
     line-height: 1.14;
     letter-spacing: 0.02em;
    
 }
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+
+}
+
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -137,11 +150,19 @@ address {
     color: var(--accent-color);
 }
 
+
 /* Site contacts */
 .contacts {
+    display: flex;
     margin-left: auto;
     align-items: center;
+    
 }
+.contacts .item:not(:last-child) {
+    margin-right: 50px;
+
+}
+
 
 .contacts .contact-list {
     color: var(--primary-text-color);
@@ -152,78 +173,15 @@ address {
 }
 
 
-.contact-icon{
-    height: 100px;
-    width: 100px ;
-    fill: currentColor;
-    
+.contacts-icon {
+   fill: currentColor;
+
 }
+
 
 .contact-list:hover {
     color:  var(--accent-color);
 }
-
-
-/* Site nav */
-.site-nav {
-    display: flex;
-
-}
-
-.site-nav .item:not(:last-child) {
-    margin-right: 50px;
-
-}
-
-.site-nav .link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-    color: var(--title-text-color);
-
-
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--accent-color);
-}
-
-.site-nav .link.current {
-    color: var(--accent-color);
-}
-
-/* Site contacts */
-.contacts {
-    display: flex;
-}
-
-.contacts .item:not(:last-child) {
-    margin-right: 50px;
-
-}
-
-.contacts .contact {
-    color: var(--primary-text-color);
-}
-
-.contact:hover,
-.contact:focus {
-    color: var(--accent-color);
-}
-
-.contacts-icon {
-    height: 12px;
-    width: 16px;
-    fill:#AFB1B8;
-
-}
-
-.contacts-icon:hover {
-    fill: var(--accent-color);
-}
-
 
 /* Hero */
 .hero {
@@ -355,11 +313,22 @@ address {
 
 .features .item {
     width: 270px;
+    
 }
+
+.feature-icon{
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-color: var(--light-bgc);
+    border-radius: 4px;
+    margin-bottom: var(--card-gap);
+}
+
 .features .item:not(:last-child) {
     margin-right: var(--card-gap);
 }
-
+/* 
 .features > .item::before{
     display: block;
     content: "";
@@ -382,7 +351,7 @@ address {
 }
 .icon-astronaut::before {
     background-image: url(../image/astronaut.svg);
-}
+} */
 .features .title {
     color: var(--title-text-color);
     font-size: 14px;
@@ -554,6 +523,10 @@ address {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.contact:hover,
+.contact:focus {
+    color: var(--accent-color);
+}
 .social-networks{
     margin-left: 70px;
     
