@@ -199,7 +199,6 @@ address {
 }
 .overlay{
    
-    
     height: 600px;
     max-width: 1600px;
     margin-left: auto;
@@ -425,9 +424,10 @@ address {
     height: 44px;
     width: 44px;
     border-radius: 50%;
-    display: block;
-    padding: 12px;
     color: var(--icon-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 
