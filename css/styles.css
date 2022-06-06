@@ -457,8 +457,10 @@ address {
     display: block;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
-    padding: 16px 32px;
     color: var(--icon-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -592,7 +594,6 @@ address {
     
     display: flex;
     flex-wrap: wrap;
-
     margin-top: calc(-1 * var(--card-gap));
     margin-left: calc(-1 * var(--card-gap));
     
@@ -612,23 +613,29 @@ address {
     border: 1px solid var(--border-card-portfolio);
     border-top: none;
 }
-
-.gallery-element:hover{
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .gallery .title {
     margin-bottom: 4px;
     color: var(--title-text-color);
-    font-weight:var(--fw-title-700);
+    font-weight: var(--fw-title-700);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    
+
 }
 
 .gallery .text {
     font-size: 16px;
     line-height: 1.88;
-    
+    color: var(--primary-text-color);
+
 }
+
+.gallery-element .link{
+    display: block;
+}
+
+.gallery-element .link:hover,
+.gallery-element .link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
